@@ -53,3 +53,14 @@ And(a=a, b=nsel, out=AandnS);
 And(a=b, b=sel, out=BandS);
 Or(a=AandnS, b=BandS, out=out);
 ```
+### DMux
+* picture
+
+![](picture/DMux.png)
+* code
+
+```
+Not(in=sel, out=nsel);
+And(a=in, b=nsel, out=a);
+And(a=in, b=sel, out=b);
+```
