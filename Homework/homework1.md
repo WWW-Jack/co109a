@@ -28,3 +28,28 @@ Not(in=a, out=na);
 Not(in=b, out=nb);
 Nand(a=na, b=nb, out=out);
 ```
+### Xor
+* picture
+
+![](picture/Xor.png)
+* code
+
+```
+Not(in=b, out=nb);
+Not(in=a, out=na);
+And(a=a, b=nb, out=AandnB);
+And(a=na, b=b, out=nAandB);
+Or(a=AandnB, b=nAandB, out=out);
+```
+### Mux
+* picture
+
+![](picture/Mux.png)
+* code
+
+```
+Not(in=sel, out=nsel);
+And(a=a, b=nsel, out=AandnS);
+And(a=b, b=sel, out=BandS);
+Or(a=AandnS, b=BandS, out=out);
+```
