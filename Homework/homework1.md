@@ -1,3 +1,3 @@
 ### 1.Not 
 * picture
-![](picture/Not.)
+![](picture/Not.png)
