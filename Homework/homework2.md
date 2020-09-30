@@ -154,5 +154,6 @@
     DMux4Way(in=cdmuxd, sel=sel[0..1], a=e, b=f, c=g, d=h);
 ```
 ### 迪摩根定律第二式
+* picture
 
 ![](picture/2.png)
