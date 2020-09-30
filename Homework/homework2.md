@@ -153,3 +153,6 @@
     DMux4Way(in=admuxb, sel=sel[0..1], a=a, b=b, c=c, d=d);
     DMux4Way(in=cdmuxd, sel=sel[0..1], a=e, b=f, c=g, d=h);
 ```
+### 迪摩根定律第二式
+
+![](picture/2.png)
