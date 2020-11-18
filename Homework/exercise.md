@@ -3,14 +3,8 @@
 
 ![](picture/inc.png)
 * code
-/*
-R0 = 0
-while(1)
-{
-    R0 = R0 + 1
-}
-*/
 
+```
 #include <stdio.h>
 void main()
 {
