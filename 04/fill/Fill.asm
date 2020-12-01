@@ -12,3 +12,38 @@
 // the screen should remain fully clear as long as no key is pressed.
 
 // Put your code here.
+(WHILE1)    
+@16384
+D=A
+@i
+M=D
+(WHILE2)
+@24576
+D=A
+@i
+D=M-D
+@WEND2
+D;JGE
+@color
+M=0
+@24576
+D=M
+@NEXT
+D;JEQ
+@color
+M=-1
+(NEXT)               
+@color
+D=M
+@i
+A=M
+M=D         
+@i
+D=M
+D=D+1
+M=D
+@WHILE2
+0;JMP            
+(WEND2)     
+@WHILE1
+0;JMP 
