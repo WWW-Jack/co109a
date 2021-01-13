@@ -1,4 +1,4 @@
-### Not 
+### inc 
 * picture
 
 ![](picture/inc.png)
